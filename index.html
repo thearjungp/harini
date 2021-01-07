@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arjun Scroll effect</title>
+  <link rel="stylesheet" href="./arjun.css">
+</head>
+<body>
+
+  
+  <div class="dummy"></div>
+  <section></section>
+  <h2 class="title">Hey Peeps !</h2>
+  <div class="content">
+    <h2>I am Harini M (Saniyen 💛 )</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit, sed do eiusmod tempor incididunt ut labore et 
+      dolore magna aliqua. Ut enim ad minim veniam, quis 
+      nostrud exercitation ullamco laboris nisi ut aliqui
+      p ex ea commodo consequat. Duis aute irure dolor in 
+      reprehenderit in voluptate velit esse cillum dolore
+       eu fugiat nulla pariatur. 
+       <br><br>
+       Excepteur sint occaecat 
+       cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit, sed do eiusmod tempor incididunt ut labore et 
+      dolore magna aliqua. Ut enim ad minim veniam, quis 
+      nostrud exercitation ullamco laboris nisi ut aliqui
+      p ex ea commodo consequat. Duis aute irure dolor in 
+      reprehenderit in voluptate velit esse cillum dolore
+       eu fugiat nulla pariatur. Excepteur sint occaecat 
+       cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua.<br><br> Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliqui
+        p ex ea commodo consequat. Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore
+         eu fugiat nulla pariatur. Excepteur sint occaecat 
+         cupidatat non proident, sunt in culpa qui officia
+          deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliqui
+        p ex ea commodo consequat.<br><br> Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore
+         eu fugiat nulla pariatur. Excepteur sint occaecat 
+         cupidatat non proident, sunt in culpa qui officia
+          deserunt mollit anim id est laborum
+       
+     </p>
+  </div>
+
+  <script type="text/javascript">
+    var section = document.querySelector("section");
+    window.addEventListener("scroll", function(){
+      var value = window.scrollY;
+      section.style.clipPath = "circle(" + value + "px at center)";
+    })
+  </script>
+</body>
+</html>
